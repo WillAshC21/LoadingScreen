@@ -1,0 +1,74 @@
+body {
+  background-color: #8080ff;
+}
+.load-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 64px;
+  color: #fff;
+}
+.load-icon {
+  left: 50%;
+  animation: 3s bounce infinite;
+}
+#letter1 {
+    position: relative;
+      left: 30%;
+        opacity: 0.0;
+}
+#letter2 {
+    position: relative;
+      left: 30%;
+  animation-delay: 1s;
+        opacity: 0.0;
+}
+#letter3 {
+    position: relative;
+    left: 30%;
+  animation-delay: 2s;
+        opacity: 0.0;
+}
+#letter4 {
+    position: relative;
+    left: 30%;
+  animation-delay: 3s;
+          opacity: 0.0;
+}
+#letter5 {
+    position: relative;
+    left: 30%;
+  animation-delay: 4s;
+        opacity: 0.0;
+}
+#letter6 {
+    position: relative;
+    left: 30%;
+  animation-delay: 5s;
+        opacity: 0.0;
+}
+#letter7 {
+    position: relative;
+    left: 30%;
+  animation-delay: 6s;
+        opacity: 0.0;
+}
+@keyframes bounce {
+  0% {
+      top: 30%;
+      opacity: 0.0;
+  }
+  50% {
+      top: 50%;
+      opacity: 1.0;
+  }
+  100% {
+      top: 30%;
+      opacity: 0.0;
+  }
+}
